@@ -1,0 +1,68 @@
+body {
+  background: black;
+  color: white;
+}
+.num {
+  font-family: tahoma;
+}
+div {
+  position: absolute;
+  top: calc(50vh - 100px);
+  text-align: center;
+}
+.dbutton {
+  width: 18pt;
+  height: 18pt;
+}
+#d4 {
+  left: calc(50vw - 30vw);
+}
+#d6 {
+  left: calc(50vw - 15vw);
+}
+#d8 {
+  left: 50vw;
+}
+#d12 {
+  left: calc(50vw + 15vw);
+}
+#d20 {
+  left: calc(50vw + 30vw);
+}
+button {
+  background: white;
+  border: none;
+}
+#output {
+  position: absolute;
+  bottom: 10vh;
+  left: 5vw;
+}
+#rec {
+  position: absolute;
+  left: 0;
+  top: 10vh;
+  width: 100vw;
+  text-align: center;
+  color: white;
+}
+#recentnum {
+  font-size: 50pt;
+  display:inline;
+}
+#recentdie {
+  font-size: 16pt;
+  display:inline;
+}
+#reset {
+  background: black;
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  display: inline-block;
+  border: solid 2px white;
+  padding: 4px;
+  position: absolute;
+  right: 5vw;
+  bottom: 10vh;
+}
